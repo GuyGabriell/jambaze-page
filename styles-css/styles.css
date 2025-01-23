@@ -53,7 +53,6 @@ body {
 
 /* Navbar-menu-secction */
 
-
 /*hot-stories-section*/
 .hot-stories-container {
   width: 1240px;
@@ -62,16 +61,13 @@ body {
   left: 100px;
   gap: 100px;
   margin-bottom: 50px;
-  border: 1px solid #ff0000;
 }
-
 
 .header {
   width: 1240px;
   height: 104px;
   gap: 48px;
   margin-bottom: 48px;
-  border: 1px solid #ff0000;
 }
 
 .header h1 {
@@ -81,16 +77,14 @@ body {
   font-size: 86px;
   line-height: 93.57px;
   font-family: Archivo;
-
 }
 
-
 /* Left section for main article */
-.main-content {
+.main-article-content {
   width: 1240px;
   height: 560px;
   gap: 32px;
-  margin-bottom: 100px;
+  margin-bottom: 48px;
   border: 1px solid red;
 }
 .main-article img {
@@ -102,11 +96,9 @@ body {
   flex: 1;
   margin: auto;
   position: relative;
-  border: 1px solid red;
 }
 
 .main-article .overlay {
-  border: 1px solid red;
   width: 770px;
   height: 162.4px;
   top: 397.6px;
@@ -114,12 +106,14 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 15px;
   color: #ffffff;
   background-color: #00000077;
+  backdrop-filter: blur(32px)
+
 }
 
-.main-article .overlay h1 {
+.main-article .overlay h2 {
+  font-family: "clash display";
   width: 711.63px;
   height: 121.33px;
   top: 420px;
@@ -127,29 +121,35 @@ body {
 }
 
 h2 {
-   font-family: Clash Display;
+  font-family: "Clash Display";
   color: #ffffff;
   font-size: 36px;
-  font-weight: bold 600;
+  font-weight: 600;
   line-height: 43.2px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration: uppercase;
-
+  margin-left: 24.81px;
 }
-
 
 /* Tag */
 .tag {
-  background: #ff5722;
+  background: #f34d1b;
   width: 166.42px;
   height: 34px;
-  top: -30px;
+  top: -22px;
   left: 24.81px;
   padding: 8px 16px;
   text-align: center;
-  line-height: 17px;
-  gap: px;
+  line-height: 18px;
+  gap: 10px;
   position: relative;
 }
 
+.tag p {
+  font-family: "Josefin Sans";
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
+  text-transform: uppercase;
+}
